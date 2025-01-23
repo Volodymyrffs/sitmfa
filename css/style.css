@@ -240,7 +240,8 @@ label {
 	Start Styling
 -------------------------------------------------*/
 .site-wrapper {
-  border-top: 4px solid #fa6862;
+  border-top: 4px solid #02b7ce; 
+	/*#fa6862;*/
 }
 
 .page-close {
