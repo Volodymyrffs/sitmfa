@@ -49,12 +49,12 @@ p:last-child {
  * Selection color
  */
 ::-moz-selection {
-  background-color: #02b7ce;
+  background-color: #fa6862;
   color: #fff;
 }
 
 ::selection {
-  background-color: #02b7ce;
+  background-color: #fa6862;
   color: #fff;
 }
 
@@ -103,7 +103,7 @@ label {
 }
 
 .btn-primary {
-  background-color: #02b7ce;
+  background-color: #fa6862;
   border: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
