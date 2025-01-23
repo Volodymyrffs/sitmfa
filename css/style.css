@@ -158,7 +158,7 @@ label {
 
 .primary,
 .link:hover {
-  color: #fa6862;
+  color: #02b7ce;
 }
 
 .no-gutter {
@@ -186,7 +186,7 @@ label {
 }
 
 .nicescroll-cursors {
-  background: #fa6862 !important;
+  background: #02b7ce !important;
 }
 
 .preloader {
@@ -204,7 +204,7 @@ label {
 }
 
 .loading-mask {
-  background-color: #fa6862;
+  background-color: #02b7ce;
   height: 100%;
   left: 0;
   position: absolute;
