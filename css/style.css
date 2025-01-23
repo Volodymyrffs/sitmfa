@@ -337,7 +337,7 @@ label {
   vertical-align: middle;
 }
 .page-home .overlay {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.50);
 }
 
 /* End of container */
