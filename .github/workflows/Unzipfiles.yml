@@ -1,0 +1,21 @@
+name: Unzip Archive
+
+on:
+  workflow_dispatch:
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Unzip phantom-bootstrap-main.zip
+        run: |
+          unzip phantom-bootstrap-main.zip -d .
+          rm phantom-bootstrap-main.zip
+          git config user.name "your-username"
+          git config user.email "your-email@example.com"
+          git add .
+          git commit -m "Распакован архив phantom-bootstrap-main.zip"
+          git push
