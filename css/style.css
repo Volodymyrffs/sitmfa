@@ -303,7 +303,7 @@ label {
   bottom: 14px;
 }
 .section-title h3::after {
-  background-color: #fa6862;
+  background-color: #02b7ce;
   width: 73px;
 }
 .section-title.light h3 {
