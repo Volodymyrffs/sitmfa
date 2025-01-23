@@ -109,7 +109,7 @@ label {
   font-weight: 700;
   height: 48px;
   line-height: 50px;
-  padding: 0 10px;
+  padding: 0 42px;
   text-transform: uppercase;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
