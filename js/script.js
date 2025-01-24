@@ -25,25 +25,25 @@
 		arrows: false,
 		adaptiveHeight: true,
 		
-		slidesToShow: 4,
+		slidesToShow: 2,
 		slidesToScroll: 1,
 		responsive: [
 			{
 				breakpoint: 1024,
 				settings: {
-					slidesToShow: 4
+					slidesToShow: 2
 				}
 			},
 			{
 				breakpoint: 992,
 				settings: {
-					slidesToShow: 2
+					slidesToShow: 1
 				}
 			},
 			{
 				breakpoint: 480,
 				settings: {
-					slidesToShow: 2
+					slidesToShow: 1
 				}
 			}
 		]
