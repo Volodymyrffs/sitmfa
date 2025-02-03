@@ -526,7 +526,7 @@ label {
   -moz-align-items: center;
   align-items: center;
   display: -moz-flex;
-  display: flex;
+/*   display: flex; */
 }
 .progress > div {
   color: #fff;
