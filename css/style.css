@@ -552,7 +552,7 @@ label {
   top: 0;
 }
 .author-image-large img {
-  height: calc(100vh - 4px);
+  height: calc(80vh - 4px);
 }
 
 /*------------------------------------------------
