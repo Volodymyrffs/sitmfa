@@ -123,6 +123,74 @@ label {
   padding: 7px;
 }
 
+ .cybersecurity-block {
+            font-family: 'Arial', sans-serif;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 30px;
+            color: #333;
+        }
+        
+.section-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        
+.feature-box {
+            background: #f9f9f9;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        
+.feature-box:hover {
+            transform: translateY(-5px);
+        }
+        
+.emoji-icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        
+.principles-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+        
+.principle-item {
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        
+.services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+.service-card {
+            text-align: center;
+            padding: 25px;
+            border: 1px solid #eee;
+            border-radius: 10px;
+        }
+        
+.highlight {
+            color: #3498db;
+            font-weight: bold;
+        }
+
+
+
+
+
 /*
  *  CSS Helper Class
  */
