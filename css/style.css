@@ -716,7 +716,9 @@ label {
 
 .history-item {
   display: table;
+  color: white;
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
   padding-left: 32px;
   margin-bottom: 20px;
   width: 100%;
