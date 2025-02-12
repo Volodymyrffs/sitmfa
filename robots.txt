@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /private/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.accessguard.com.ua/sitemap.xml
