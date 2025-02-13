@@ -187,49 +187,116 @@
         </div> <!-- /.row -->
 
 
-        <!-- Section for MFA pricing form -->
-<section class="mfa-pricing">
+ <!-- Pricing Table Section -->
+<section id="pricing" class="pricing-section">
   <div class="container">
-    <h2 class="section-title text-center">Ціни на MFA</h2>
-    <p class="text-center">Виберіть план MFA, що підходить для вашого бізнесу</p>
-
-    <!-- MFA Pricing Form -->
-    <div class="pricing-form">
-      <form action="#" method="post">
-        <div class="form-group">
-          <label for="mfa-plan">Виберіть план:</label>
-          <select class="form-control" id="mfa-plan" name="mfa-plan">
-            <option value="basic">Основний (1 користувач)</option>
-            <option value="advanced">Розширений (5 користувачів)</option>
-            <option value="premium">Преміум (10 користувачів)</option>
-          </select>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title text-center">
+          <h2>Ціни на MFA</h2>
+          <p>Оберіть план для вашого бізнесу в залежності від кількості користувачів.</p>
         </div>
-
-        <div class="form-group">
-          <label for="user-count">Кількість користувачів:</label>
-          <input type="number" class="form-control" id="user-count" name="user-count" min="1" max="100" value="1">
+      </div>
+    </div>
+    
+    <div class="row">
+      <!-- Plan 1 (1-20 Users) -->
+      <div class="col-md-4">
+        <div class="pricing-plan">
+          <h3 class="plan-title">1-20 користувачів</h3>
+          <p class="price">$30/місяць</p>
+          <ul class="plan-features">
+            <li>Мультифакторний захист</li>
+            <li>Підтримка користувачів</li>
+            <li>Щомісячні звіти</li>
+            <li>24/7 підтримка</li>
+          </ul>
+          <button class="btn btn-primary">Оформити</button>
         </div>
+      </div>
 
-        <div class="form-group">
-          <label for="additional-services">Додаткові послуги:</label>
-          <select multiple class="form-control" id="additional-services" name="additional-services[]">
-            <option value="email">Електронна пошта</option>
-            <option value="sms">SMS</option>
-            <option value="push">Push сповіщення</option>
-            <option value="voice">Голосове підтвердження</option>
-          </select>
+      <!-- Plan 2 (21-50 Users) -->
+      <div class="col-md-4">
+        <div class="pricing-plan">
+          <h3 class="plan-title">21-50 користувачів</h3>
+          <p class="price">$50/місяць</p>
+          <ul class="plan-features">
+            <li>Мультифакторний захист</li>
+            <li>Підтримка користувачів</li>
+            <li>Щомісячні звіти</li>
+            <li>24/7 підтримка</li>
+          </ul>
+          <button class="btn btn-primary">Оформити</button>
         </div>
+      </div>
 
-        <div class="form-group">
-          <label for="mfa-price">Загальна ціна:</label>
-          <input type="text" class="form-control" id="mfa-price" name="mfa-price" readonly>
+      <!-- Plan 3 (50+ Users) -->
+      <div class="col-md-4">
+        <div class="pricing-plan">
+          <h3 class="plan-title">50+ користувачів</h3>
+          <p class="price">$100/місяць</p>
+          <ul class="plan-features">
+            <li>Мультифакторний захист</li>
+            <li>Підтримка користувачів</li>
+            <li>Щомісячні звіти</li>
+            <li>24/7 підтримка</li>
+            <li>Індивідуальні налаштування</li>
+          </ul>
+          <button class="btn btn-primary">Оформити</button>
         </div>
-
-        <button type="submit" class="btn btn-primary">Оформити заявку</button>
-      </form>
-    </div> <!-- /.pricing-form -->
-  </div> <!-- /.container -->
+      </div>
+    </div>
+  </div>
 </section>
+<!-- End Pricing Table Section -->
+
+<!-- Add some custom CSS -->
+<style>
+  .pricing-section {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+  }
+  .pricing-plan {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .plan-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .price {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .plan-features li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+</style>
+
 
       </div> <!-- /.container -->
 
