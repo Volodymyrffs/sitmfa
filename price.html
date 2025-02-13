@@ -185,6 +185,52 @@
             </div>
           </div>
         </div> <!-- /.row -->
+
+
+        <!-- Section for MFA pricing form -->
+<section class="mfa-pricing">
+  <div class="container">
+    <h2 class="section-title text-center">Ціни на MFA</h2>
+    <p class="text-center">Виберіть план MFA, що підходить для вашого бізнесу</p>
+
+    <!-- MFA Pricing Form -->
+    <div class="pricing-form">
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="mfa-plan">Виберіть план:</label>
+          <select class="form-control" id="mfa-plan" name="mfa-plan">
+            <option value="basic">Основний (1 користувач)</option>
+            <option value="advanced">Розширений (5 користувачів)</option>
+            <option value="premium">Преміум (10 користувачів)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="user-count">Кількість користувачів:</label>
+          <input type="number" class="form-control" id="user-count" name="user-count" min="1" max="100" value="1">
+        </div>
+
+        <div class="form-group">
+          <label for="additional-services">Додаткові послуги:</label>
+          <select multiple class="form-control" id="additional-services" name="additional-services[]">
+            <option value="email">Електронна пошта</option>
+            <option value="sms">SMS</option>
+            <option value="push">Push сповіщення</option>
+            <option value="voice">Голосове підтвердження</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="mfa-price">Загальна ціна:</label>
+          <input type="text" class="form-control" id="mfa-price" name="mfa-price" readonly>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Оформити заявку</button>
+      </form>
+    </div> <!-- /.pricing-form -->
+  </div> <!-- /.container -->
+</section>
+
       </div> <!-- /.container -->
 
       <nav class="page-nav clear">
