@@ -187,7 +187,7 @@
         </div> <!-- /.row -->
 
 
- <!-- Pricing Table Section -->
+<!-- Pricing Table Section -->
 <section id="pricing" class="pricing-section">
   <div class="container">
     <div class="row">
@@ -197,10 +197,10 @@
         </div>
       </div>
     </div>
-    
+
     <div class="row">
       <!-- Plan 1 (1-20 Users) -->
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="pricing-plan">
           <h3 class="plan-title">1-20 користувачів</h3>
           <p class="price">$30/місяць</p>
@@ -213,7 +213,7 @@
       </div>
 
       <!-- Plan 2 (21-50 Users) -->
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="pricing-plan">
           <h3 class="plan-title">21-50 користувачів</h3>
           <p class="price">$50/місяць</p>
@@ -226,7 +226,7 @@
       </div>
 
       <!-- Plan 3 (50+ Users) -->
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="pricing-plan">
           <h3 class="plan-title">50+ користувачів</h3>
           <p class="price">$100/місяць</p>
@@ -255,6 +255,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-bottom: 30px;
+    height: 100%;
   }
   .plan-title {
     font-size: 24px;
@@ -287,7 +288,14 @@
   .btn-primary:hover {
     background-color: #0056b3;
   }
+  /* For responsive design */
+  @media (max-width: 767px) {
+    .pricing-plan {
+      margin: 0 auto;
+    }
+  }
 </style>
+
 
 
       </div> <!-- /.container -->
